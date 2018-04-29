@@ -65,3 +65,8 @@ while True:
     print(JSON)
 
     print("done")
+'''
+with open("./Test.json","w+") as file:
+    print(file.read())
+    print(file.write("12d4as85d4as6d4as65das"))
+print (time.strftime("%Y-%m-%d", time.localtime()))
