@@ -5,7 +5,7 @@ import psutil
 import json
 import os
 
-
+'''
 def load_avg():
     f = os.popen("uptime")
     a = f.read().strip()
