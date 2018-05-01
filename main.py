@@ -5,8 +5,7 @@ import psutil
 import json
 import os
 
-print(time.localtime())
-'''
+
 def load_avg():
     f = os.popen("uptime")
     a = f.read().strip()
@@ -57,12 +56,12 @@ while True:
         speed.close()
     print(JSON)
     
-    if (time_)[4] % 5 == 0:
-        
-        with open("./" + time.strftime("%m-%d %H:%M:%S",time.localtime() + ".json"),"w+") as file:
-            print(file.read())
+    if Time[4] % 5 == 0:
+        with open("./" + time.strftime("%m-%d", Time) + ".json","w+") as file:
+            data = file.read()
+            if data = "":
+                
+            print()
             print(file.write("12d4as85d4as6d4as65das"))
     print("done")
     time.sleep(9)
-
-'''
